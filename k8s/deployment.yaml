@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx-webapp
-          image: ghcr.io/<your-github-username>/nginx-webapp:latest
+          image: ghcr.io/njoynjoy/nginx-webapp:latest
           ports:
             - containerPort: 80
           readinessProbe:
